@@ -16,9 +16,10 @@ C# の基礎を、最短ルートで身につけるための学習リポジト�
 ```mermaid
 flowchart LR
   A[1. イントロダクション] --> B[1.1. 環境構築]
-  A --> C[2. C#の基礎文法]
+  A --> C[2. C#の基本文法]
+  C --> D[3. 制御構文]
+  C --> E[4. 配列とリスト]
   style A fill:#4169e1,stroke:#fff,color:#fff
-  style F fill:#2e8b57,stroke:#fff,color:#fff
 ```
 
 ## 📚 目次 (Contents)
@@ -28,8 +29,8 @@ flowchart LR
 | **1** | [イントロダクション](./docs/01_intro.md) | 最初の環境構築・Hello World の表示 | ✅ |
 | **1.1** | [.NET 環境セットアップ](./docs/01_setup.md) | .NET SDK の導入と確認手順 | ✅ |
 | **2** | [C#の基本文法](./docs/02_basics.md) | 変数・型・演算子の使い方 | ✅ |
-| **3** | [制御構造](./docs/03_control.md) | 条件分岐(if)と繰り返し(for/while) | 🚧 |
-| **4** | [配列とリスト](./docs/04_collections.md) | データの集合を扱う (List<T>) | 🚧 |
+| **3** | [制御構文](./docs/03_control.md) | 条件分岐(if)と繰り返し(for/while) | ✅ |
+| **4** | [配列とリスト](./docs/04_collections.md) | データの集合を扱う (List<T>) | ✅ |
 | **5** | [オブジェクト指向](./docs/05_oop.md) | クラス・継承・カプセル化 | 📅 |
 | **6** | [実践演習](./docs/06_practice.md) | コンソールアプリの作成 | 📅 |
 | **データアクセス** | [Entity Framework 入門](./docs/03_entity_framework.md) | EF Core の導入とマイグレーション | 🚧 |
