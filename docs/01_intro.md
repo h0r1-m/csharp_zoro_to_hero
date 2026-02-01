@@ -9,9 +9,9 @@
 C# は Microsoft が開発した、モダンでパワフルなプログラミング言語です。
 現在では以下のような幅広い分野で使用されています。
 
-* **デスクトップアプリ**: Windows の業務アプリケーション
+* **デスクトップアプリ**: Windows の業務アプリケーション（Windows Forms / WPF）
 * **ゲーム開発**: Unity を使った 2D/3D ゲーム
-* **サーバーサイド**: ASP.NET Core を使った Web サイトの裏側
+* **Webサービス**: ASP.NET Core を使った Web サイトの裏側
 * **モバイルアプリ**: iOS/Android アプリ (MAUI)
 
 ---
@@ -25,7 +25,7 @@ C# は Microsoft が開発した、モダンでパワフルなプログラミン
 3. 数分待つと、ブラウザ上に VS Code 画面が表示されます。
 
 > [!TIP]
-> 自分の PC で直接開発したい場合は、[Visual Studio 2022](https://visualstudio.microsoft.com/ja/vs/) または [.NET SDK](https://dotnet.microsoft.com/download) をインストールしてください。
+> 自分の PC で直接開発したい場合は、[Visual Studio 2022](https://visualstudio.microsoft.com/ja/vs/) / [Visual Studio Code](https://code.visualstudio.com/download) または [.NET SDK](https://dotnet.microsoft.com/download) をインストールしてください。
 
 ---
 
@@ -41,6 +41,28 @@ C# 10 以降では、非常にシンプルに書くことができます（ト�
 Console.WriteLine("Hello, World!");
 Console.WriteLine("C# の学習を始めましょう！");
 ```
+
+### 旧スタイル（従来のエントリポイント）
+
+トップレベルステートメントが導入される前の、従来の書き方の例を示します。`namespace` と `class`、`Main` メソッドで明示的にエントリポイントを定義します。
+
+```csharp
+using System;
+
+namespace MyApp
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Hello, World!");
+			Console.WriteLine("C# の学習を始めましょう！");
+		}
+	}
+}
+```
+
+この書き方は古い C# のコードベースでよく見られますが、動作や実行方法（`dotnet run`）はトップレベルステートメントの例と同じです。
 
 ### 実行の手順
 + ターミナル（画面下の領域）を開きます。
