@@ -33,15 +33,15 @@ flowchart LR
 
 | 章 | タイトル | 内容 | ステータス |
 | :--- | :--- | :--- | :---: |
-| **Section 1** | [イントロダクション](./docs/01_intro.md) | 最初の環境構築・Hello World の表示 | ✅ |
-| **環境構築** | [.NET 環境セットアップ](./docs/02_setup.md) | .NET SDK の導入と確認手順 | ✅ |
+| **1** | [イントロダクション](./docs/01_intro.md) | 最初の環境構築・Hello World の表示 | ✅ |
+| **1.1環境構築** | [.NET 環境セットアップ](./docs/02_setup.md) | .NET SDK の導入と確認手順 | ✅ |
+| **2** | [C#の基本文法](./docs/02_basics.md) | 変数・型・演算子の使い方 | ✅ |
+| **3** | [制御構造](./docs/03_control.md) | 条件分岐(if)と繰り返し(for/while) | 🚧 |
+| **4** | [配列とリスト](./docs/04_collections.md) | データの集合を扱う (List<T>) | 🚧 |
+| **5** | [オブジェクト指向](./docs/05_oop.md) | クラス・継承・カプセル化 | 📅 |
+| **6** | [実践演習](./docs/06_practice.md) | コンソールアプリの作成 | 📅 |
 | **データアクセス** | [Entity Framework 入門](./docs/03_entity_framework.md) | EF Core の導入とマイグレーション | 🚧 |
 | **Web アプリ** | [Blazor 入門](./docs/04_blazor.md) | Blazor Server / WASM の基本 | 🚧 |
-| **Section 2** | [C#の基本文法](./docs/02_basics.md) | 変数・型・演算子の使い方 | 🚧 |
-| **Section 3** | [制御構造](./docs/03_control.md) | 条件分岐(if)と繰り返し(for/while) | 🚧 |
-| **Section 4** | [配列とリスト](./docs/04_collections.md) | データの集合を扱う (List<T>) | 🚧 |
-| **Section 5** | [オブジェクト指向](./docs/05_oop.md) | クラス・継承・カプセル化 | 📅 |
-| **Section 6** | [実践演習](./docs/06_practice.md) | コンソールアプリの作成 | 📅 |
 
 ## 🛠️ この教材の進め方
 1. リポジトリを Fork する
