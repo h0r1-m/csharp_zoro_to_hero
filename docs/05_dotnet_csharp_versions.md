@@ -38,6 +38,14 @@
 - プロジェクトで明示的に言語バージョンを指定するには MSBuild プロパティを使います（例: `<LangVersion>9.0</LangVersion>` または `<LangVersion>latest</LangVersion>`）。
 - 本表は簡易参照用の目安です。詳細かつ最新の情報は公式ドキュメント（C# 言語仕様、.NET SDK リリースノート、Visual Studio のリリースノート）を参照してください。
 
+### .NET Framework と .NET (Core/5+) の違い（注釈）
+
+- **プラットフォーム:** .NET Framework は主に Windows 向けで、WPF／Windows Forms や古い ASP.NET など Windows 固有の技術と密接に結びついています。 .NET Core/.NET (5+) はクロスプラットフォーム（Windows / Linux / macOS）を公式にサポートします。
+- **配布・デプロイ:** .NET Framework は OS に依存するバンドルやインストーラで配布されます。 .NET Core/.NET は自己完結型デプロイ（アプリにランタイムを同梱）や、グローバルな SDK/ランタイムのインストールが可能で、コンテナ環境に向きます。
+- **互換性と移行:** 既存の .NET Framework アプリケーションは、特に Windows 固有 API を使用している場合、.NET Core/.NET への移行が必須かつ手間です。一方で .NET Core/.NET は新しい API・パフォーマンス最適化を優先しています。
+- **機能と将来性:** Microsoft は新機能とエコシステムの投資を .NET (5+) に集中させています。.NET Framework は安定性重視でメンテナンスされますが、新規機能は主に .NET (5+) 側で提供されます。
+- **利用ケースの目安:** デスクトップで既存の Windows 専用アプリを保守するなら .NET Framework、クラウド・コンテナ・クロスプラットフォーム開発や最新の言語機能を活用するなら .NET Core/.NET を選ぶのが一般的です。
+
 ---
 
 ファイル作成日: 2026-02-01
