@@ -110,3 +110,4 @@ ConvertSJISToUTF8("legacy.txt", "converted.txt");
 
 4. 確認: 変換後のファイルが正しく読めるか、簡単な検証ルーチン（例: 日本語のキーワードが含まれているか）を実装せよ。
 
+[トラブルシューティング：文字化けが発生したとき](./06_encoding_extended.md)

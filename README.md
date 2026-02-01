@@ -33,8 +33,10 @@ flowchart LR
 | **4** | [配列とリスト](./docs/04_collections.md) | データの集合を扱う (List<T>) | ✅ |
 | **5** | [オブジェクト指向](./docs/05_oop.md) | クラス・継承・カプセル化 | 📅 |
 | **6** | [実践演習](./docs/06_practice.md) | コンソールアプリの作成 | 📅 |
-| **データアクセス** | [Entity Framework 入門](./docs/03_entity_framework.md) | EF Core の導入とマイグレーション | 🚧 |
-| **Web アプリ** | [Blazor 入門](./docs/04_blazor.md) | Blazor Server / WASM の基本 | 🚧 |
+| **6.1** | [ストリーム](./docs/06_streams.md) | ファイルなどの読み書き | ✅ |
+| **6.2** | [エンコーディング](./docs/06_encoding.md) | 文字列のエンコードを切り替える | ✅ |
+| **データアクセス** | [Entity Framework 入門](./docs/08_entity_framework.md) | EF Core の導入とマイグレーション | 🚧 |
+| **Web アプリ** | [Blazor 入門](./docs/09_blazor.md) | Blazor Server / WASM の基本 | 🚧 |
 
 ## 🛠️ この教材の進め方
 1. リポジトリを Fork する
