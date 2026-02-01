@@ -40,7 +40,7 @@ flowchart LR
 
 ## 🛠️ この教材の進め方
 
-[GitHub UI - Sync fork button](./images/github-ui.png)
+![GitHub UI - Sync fork button](./images/github-ui.png)
 
 1. リポジトリを Fork する
 右上の [Fork] ボタンを押し、自分のアカウントにこの教材をコピーしてください。
