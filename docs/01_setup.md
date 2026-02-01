@@ -25,7 +25,7 @@ brew install --cask dotnet-sdk
 - Visual Studio のインストーラから「.NET デスクトップ開発」「ASP.NET と Web 開発」などを選択してインストール。
 
 ### Windows（Visual Studio Code）
-- [docs/02_setup_vscode.md](docs/02_setup_vscode.md#L1)
+- [docs/01_setup_vscode.md](docs/01_setup_vscode.md#L1)
 - `C#` 拡張 (C# Dev Kit (Microsoft製)) を入れる。
 
 
