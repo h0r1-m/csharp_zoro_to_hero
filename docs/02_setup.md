@@ -1,4 +1,3 @@
-```markdown
 # 02. 開発環境の準備 (.NET / SDK)
 
 このページでは、ローカル環境での .NET 開発に必要な最小限のセットアップ手順を示します。GitHub Codespaces を使う場合は多くの手順が不要ですが、ローカルで動かす場合に参考にしてください。
@@ -30,12 +29,8 @@ brew install --cask dotnet-sdk
 dotnet --version
 ```
 
-## 4) エディタと便利ツール
-- Visual Studio Code を使う場合は `C#` 拡張 (OmniSharp) を入れる。
-- `dotnet-ef` ツールは Entity Framework を使う場合に必要:
-```bash
-dotnet tool install --global dotnet-ef
-```
+## 4) エディタ
+- Visual Studio Code を使う場合は `C#` 拡張 (C# Dev Kit (Microsoft製)) を入れる。
 
 ## 5) 最小サンプル（コンソールアプリ作成）
 ```bash
@@ -46,7 +41,6 @@ dotnet run
 
 ## 補足
 Codespaces を使う場合は GitHub が事前に SDK を用意してくれるので、上の多くの手順は不要です。
-```
 
 ## 演習
 
