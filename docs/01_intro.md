@@ -25,16 +25,34 @@ C# は Microsoft が開発した、モダンでパワフルなプログラミン
 3. 数分待つと、ブラウザ上に VS Code 画面が表示されます。
 
 > [!TIP]
-> 自分の PC で直接開発したい場合は、[Visual Studio 2022](https://visualstudio.microsoft.com/ja/vs/) / [Visual Studio Code](https://code.visualstudio.com/download) または [.NET SDK](https://dotnet.microsoft.com/download) をインストールしてください。
+> 自分の PC で直接開発したい場合は [Visual Studio Code](https://code.visualstudio.com/download) と [.NET SDK](https://dotnet.microsoft.com/download) をインストールしてください。
 
----
 
 ## 3. 最初のプログラム (Hello World)
 
 プログラミングの世界へようこそ！まずは文字を表示させてみましょう。
 
+`exercises/01_intro` にコンソールアプリケーションを作成します。
+
+### プロジェクトの作成
+
+以下のコマンドで、コンソールアプリケーションプロジェクトを作成します。
+ターミナルを開き、以下のコマンドを実行します。（Codespaceはbashというシェルです）
+
+```bash
+cd exercises
+dotnet new console -n 01_intro
+cd 01_intro
+```
+
+このコマンドにより、以下のファイルが自動生成されます：
+- `01_intro.csproj`: プロジェクト設定ファイル
+- `Program.cs`: メインのプログラムコード
+
 ### プログラムの構成
+
 C# 10 以降では、非常にシンプルに書くことができます（トップレベルステートメント）。
+Program.cs を以下のように書き換えます。
 
 ```csharp
 // 画面にメッセージを表示する
@@ -45,6 +63,7 @@ Console.WriteLine("C# の学習を始めましょう！");
 ### 旧スタイル（従来のエントリポイント）
 
 トップレベルステートメントが導入される前の、従来の書き方の例を示します。`namespace` と `class`、`Main` メソッドで明示的にエントリポイントを定義します。
+Program.cs を以下のように書き換えます。
 
 ```csharp
 using System;
