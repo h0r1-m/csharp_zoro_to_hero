@@ -21,18 +21,21 @@ sudo apt install -y dotnet-sdk-8.0
 brew install --cask dotnet-sdk
 ```
 
-### Windows
+### Windows（Visual Studio 2022）
 - Visual Studio のインストーラから「.NET デスクトップ開発」「ASP.NET と Web 開発」などを選択してインストール。
+
+### Windows（Visual Studio Code）
+- [docs/02_setup_vscode.md](docs/02_setup_vscode.md#L1)
+- `C#` 拡張 (C# Dev Kit (Microsoft製)) を入れる。
+
 
 ## 3) インストール確認
 ```bash
 dotnet --version
 ```
 
-## 4) エディタ
-- Visual Studio Code を使う場合は `C#` 拡張 (C# Dev Kit (Microsoft製)) を入れる。
 
-## 5) 最小サンプル（コンソールアプリ作成）
+## 4) 最小サンプル（コンソールアプリ作成）
 ```bash
 dotnet new console -o MyConsoleApp
 cd MyConsoleApp
