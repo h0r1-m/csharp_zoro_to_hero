@@ -36,7 +36,7 @@ flowchart LR
 | **3** | [制御構文](./docs/03_control.md) | 条件分岐(if)と繰り返し(for/while) | ✅ |
 | **4** | [配列とリスト](./docs/04_collections.md) | データの集合を扱う (List<T>) | ✅ |
 | **5** | [オブジェクト指向](./docs/05_oop.md) | クラス・継承・カプセル化 | 📅 |
-| **6** | [標準入出力](./docs/06_practice.md) | コンソールアプリの作成 | 📅 |
+| **6** | [標準入出力](./docs/06_console.md) | コンソールアプリの作成 | 📅 |
 | **6.1** | [ストリーム](./docs/06_streams.md) | ファイルなどの読み書き | ✅ |
 | **6.2** | [エンコーディング](./docs/06_encoding.md) | 文字列のエンコードを切り替える | ✅ |
 | **データアクセス** | [Entity Framework 入門](./docs/08_entity_framework.md) | EF Core の導入とマイグレーション | 🚧 |
