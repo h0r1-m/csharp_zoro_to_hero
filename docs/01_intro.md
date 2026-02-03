@@ -27,6 +27,21 @@ C# は Microsoft が開発した、モダンでパワフルなプログラミン
 > [!TIP]
 > 自分の PC で直接開発したい場合は [Visual Studio Code](https://code.visualstudio.com/download) と [.NET SDK](https://dotnet.microsoft.com/download) をインストールしてください。
 
+### 2.1 .NET環境が動くかどうか確認する
+
+- dotnet が動作するか確認します。
+
+```bash
+dotnet --version
+```
+
+![dotnet-version](../images/dotnet-version.png)
+
+> [!TIP]
+> バージョンが表示されない場合、以下を試みてください。
+> - 新しいターミナルを起動する
+> - Codespace を一度閉じて開きなおす
+
 
 ## 3. 最初のプログラム (Hello World)
 
