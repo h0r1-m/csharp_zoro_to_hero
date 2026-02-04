@@ -28,6 +28,7 @@ flowchart LR
   P0[プログラミング基礎] --> P1[分解]
   P1 --> P2[抽象化とパターン認識]
   P2 --> P3[ゴールからの設計]
+  P3 --> P4[デバッグ]
   style S1 fill:#4169e1,stroke:#fff,color:#fff
   style P0 fill:#4169e1,stroke:#fff,color:#fff
 ```
@@ -58,6 +59,7 @@ flowchart LR
 | **1** | [分解](./docs/p_01_decomposition.md) | プログラミングにおける分解（デコンポジション） | 🚧 |
 | **2** | [抽象化](./docs/p_02_abstraction.md) | 抽象化とパターン認識 | 🚧 |
 | **3** | [ゴールからの設計](./docs/p_03_backward_design.md) | 逆算の思考（ゴールからの設計） | 🚧 |
+| **4** | [デバッグ](./docs/p_04_debugging_failures.md) | 「失敗」をデバッグする力 | 🚧 |
 
 
 ## 🛠️ この教材の進め方
