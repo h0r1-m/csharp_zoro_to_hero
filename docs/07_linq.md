@@ -294,3 +294,145 @@ class Program
 - `Where`、`Select`、`OrderBy`など、多くの便利なメソッドがあります
 - クエリは遅延実行されるため、パフォーマンスに注意しましょう
 - 配列、リスト、データベースなど、様々なデータソースに対応できます
+
+## 習得課題
+
+### 課題 1: 数値のフィルタリングと変換
+
+以下の要件を実装してください。
+
+```
+1. 1 から 20 までの数値リストを作成
+2. 3 の倍数をフィルタリング
+3. 各数値を 2 倍にして、昇順でソート
+4. 結果を表示
+```
+
+期待される出力: `6, 12, 18, 24, 30, 36`
+
+### 課題 2: 商品データの分析
+
+```csharp
+class Product
+{
+    public string Name { get; set; }
+    public string Category { get; set; }
+    public int Price { get; set; }
+}
+```
+
+以下の要件を実装してください。
+
+```
+1. 複数の Product インスタンスを作成（カテゴリ：食品、電子機器など）
+2. 価格が 100 円以上の商品を取得
+3. カテゴリでグループ化
+4. 各グループの商品数と平均価格を表示
+```
+
+### 課題 3: 学生成績の集計
+
+```csharp
+class Score
+{
+    public string Name { get; set; }
+    public string Subject { get; set; }
+    public int Points { get; set; }
+}
+```
+
+以下の要件を実装してください。
+
+```
+1. 複数の学生と教科の成績データを作成
+2. 各学生の平均点を計算
+3. 平均点が高い順に学生を並べ替え
+4. 平均点が 80 点以上の学生だけを表示
+```
+
+### 課題 4: データの結合
+
+```csharp
+class Employee { public int Id { get; set; } public string Name { get; set; } public int DepartmentId { get; set; } }
+class Department { public int Id { get; set; } public string Name { get; set; } }
+```
+
+以下の要件を実装してください。
+
+```
+1. 複数の Employee と Department インスタンスを作成
+2. Employee と Department を結合
+3. 社員名と部門名を表示
+4. 部門ごとに社員数をカウント
+```
+
+### 課題 5: 複合クエリ
+
+```csharp
+class Student
+{
+    public string Name { get; set; }
+    public string Grade { get; set; }
+    public int[] Scores { get; set; }
+}
+```
+
+以下の要件を実装してください。
+
+```
+1. 複数の学生データを作成（学年別、複数の成績を含む）
+2. 学年が "3年" の学生を抽出
+3. 各学生の平均成績を計算
+4. 平均成績でソート
+5. 学生名と平均成績を表示
+```
+
+### 課題 6: クエリ構文を使用
+
+クエリ構文を使用して、以下の要件を実装してください。
+
+```csharp
+var numbers = Enumerable.Range(1, 100).ToList();
+
+// クエリ構文で以下を実装
+// 1. 10 の倍数をフィルタリング
+// 2. 各数値を文字列に変換
+// 3. 最初の 5 個を取得
+```
+
+### 課題 7: パフォーマンス意識
+
+以下のコードの違いを理解してください。
+
+```csharp
+var numbers = Enumerable.Range(1, 1000000).ToList();
+
+// パターン 1: 遅延実行
+var query = numbers
+    .Where(n => n % 2 == 0)
+    .Where(n => n > 500000);
+
+// パターン 2: 即座実行
+var list = numbers
+    .Where(n => n % 2 == 0)
+    .Where(n => n > 500000)
+    .ToList();
+
+// 各パターンをループして実行時間を測定し、違いを確認
+```
+
+### 課題 8: チャレンジ - Word ランキング
+
+以下を実装してください。
+
+```
+1. 複数の単語を含むリストを作成
+2. 5 文字以上の単語をフィルタリング
+3. 文字数でグループ化
+4. 各グループの単語数を表示
+5. 最も多く存在する文字数を持つグループを特定
+```
+
+## 解答例
+
+各課題の解答は、`exercises/07_linq/` ディレクトリに配置される予定です。
