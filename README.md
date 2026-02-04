@@ -25,6 +25,7 @@ flowchart LR
   S2 --> S6[6. 標準入出力]
   S6 --> S61[6.1. ストリーム]
   S61 --> S62[6.2. エンコーディング]
+  P0[プログラミング基礎] --> P1[分解]
   style S1 fill:#4169e1,stroke:#fff,color:#fff
 ```
 
@@ -45,6 +46,12 @@ flowchart LR
 | **7** | [LINQ](./docs/07_linq.md) | LINQを使う | ✅ |
 | **データアクセス** | [Entity Framework 入門](./docs/08_entity_framework.md) | EF Core の導入とマイグレーション | 🚧 |
 | **Web アプリ** | [Blazor 入門](./docs/09_blazor.md) | Blazor Server / WASM の基本 | 🚧 |
+
+
+### プログラミング基礎
+
+| 章 | タイトル | 内容 | ステータス |
+| **1** | [分解](./docs/p_01_decomposition.md) | プログラミング基礎「分解」 | 🚧 |
 
 ## 🛠️ この教材の進め方
 
