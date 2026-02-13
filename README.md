@@ -106,4 +106,4 @@ git merge upstream/main
 
 ## 付録
 
-- **.NET と C# 言語バージョン対応表:** [docs/05_dotnet_csharp_versions.md](docs/05_dotnet_csharp_versions.md#L1)
+- **.NET と C# 言語バージョン対応表:** [docs/a_01_dotnet_csharp_versions.md](docs/a_01_dotnet_csharp_versions.md)
