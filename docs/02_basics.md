@@ -239,8 +239,14 @@ Console.WriteLine($"maybe = {maybe}");
 ```
 
 **ヒント:**
-- Null 合体演算子 `??` で空欄をチェック。
-- 条件演算子 `?:` で文字数を判定。
+- Console.ReadLine()は `null` (End Of File (EOF)) または文字列を返す。
+- EOF を標準入力から送信する方法：
+  - Windows: `Ctrl+Z` を入力してから `Enter` キー
+  - Mac/Linux: `Ctrl+D` を入力（CodespaceはLinuxなのでこちら）
+- Null 合体演算子 `??` で `null` を空文字列にすることができる。
+  - 例： `string input = Console.ReadLine() ?? "";`
+- 条件演算子 `? :` で文字数を判定してから表示。
+- 参考：この課題で `??` が活躍するのは EOF を入力したときだけです。通常の `Enter` のみなら `""` なので、`IsNullOrEmpty()` も視野に入れても良いでしょう。
 
 ---
 
