@@ -60,6 +60,7 @@ flowchart LR
 | **6.4** | [XML](./docs/06_xml.md) | XMLシリアライズ・デシリアライズ | ✅ |
 | **6.5** | [TSV/CSV](./docs/06_tsv_csv.md) | TSV（タブ区切り）/CSV（カンマ区切り）デシリアライズ | ✅ |
 | **7** | [LINQ](./docs/07_linq.md) | LINQを使う | ✅ |
+| **8** | [非同期処理](./docs/08_async_await.md) | 非同期処理(async/await)を使う | ✅ |
 | **データアクセス** | [Entity Framework 入門](./docs/08_entity_framework.md) | EF Core の導入とマイグレーション | 🚧 |
 | **Web アプリ** | [Blazor 入門](./docs/09_blazor.md) | Blazor Server / WASM の基本 | 🚧 |
 
