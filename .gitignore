@@ -52,3 +52,6 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+/.vs/csharp_zoro_to_hero.slnx/FileContentIndex
+/.vs/csharp_zoro_to_hero.slnx/v18
+/.vs
