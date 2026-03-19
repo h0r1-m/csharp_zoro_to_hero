@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 
 
-public static class TsvFileFinder
+public class TsvFileFinder
 {
     public static string[] TsvFileFinder(string Dir)
     {
