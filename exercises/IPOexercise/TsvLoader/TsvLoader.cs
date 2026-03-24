@@ -7,9 +7,11 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-public class TsvLoader
+namespace TsvLoader;
+
+public class Loader
 {
-    public static IEnumerable<(string FilePath, string[] row)> Load(List<string> filePath)
+    public static IEnumerable<(string FilePath, string[] row)> Load(IEnumerable<string> filePath)
     {
         Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 

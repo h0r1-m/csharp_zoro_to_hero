@@ -4,12 +4,13 @@ using System;
 using System.IO;
 using System.Linq;
 
+namespace TsvFileFinder;
 
-public class TsvFileFinder
+public class FileFinder
 {
     public static string[] TsvFileFinder(string Dir)
     {
-        if (!Directry.Exists(Dir)) return null;
+        if (!Directory.Exists(Dir)) return null;
 
         return Directory.EnumerateFiles(Dir, "*.tsv", SearchOption.TopDirectoryOnly).Select(Path.GetFullPath).ToArray();
     }
